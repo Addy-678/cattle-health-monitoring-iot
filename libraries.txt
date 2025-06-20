@@ -1,0 +1,66 @@
+# =============================================================================
+# libraries.txt
+# Required Arduino Libraries and Dependencies
+# Project: Cattle Health Monitoring System Using IoT (ESP32-based)
+# =============================================================================
+
+# --------------------------------------------------------------------------
+# 📦 Core Libraries (Usually included in ESP32 board package)
+# --------------------------------------------------------------------------
+
+1. WiFi
+   • Header: #include <WiFi.h>
+   • Description: Enables WiFi connectivity on ESP32
+   • Source: Built-in with ESP32 Arduino core
+
+2. HTTPClient
+   • Header: #include <HTTPClient.h>
+   • Description: Handles HTTP GET/POST requests
+   • Source: Built-in with ESP32 Arduino core
+
+3. Wire
+   • Header: #include <Wire.h>
+   • Description: I²C communication for sensors
+   • Source: Built-in with Arduino core
+
+4. math.h
+   • Header: #include <math.h>
+   • Description: Provides math functions (e.g., sqrt, pow)
+   • Source: Built-in with C/C++ (no installation needed)
+
+# --------------------------------------------------------------------------
+# 📡 Sensor Libraries
+# --------------------------------------------------------------------------
+
+5. MAX30100 Pulse Oximeter Library
+   • Header: #include "MAX30100_PulseOximetermega.h"
+   • Description: Used for reading SpO₂ and heart rate
+   • Custom version likely used in your code
+   • Recommendation: Place `MAX30100_PulseOximetermega.h` and `.cpp` in your `src/` folder  
+   • Alternatively: https://github.com/oxullo/Arduino-MAX30100 (for standard version)
+
+6. Adafruit MLX90614 Library
+   • Header: #include <Adafruit_MLX90614.h>
+   • Description: For reading object temperature from MLX90614 IR sensor
+   • Install via Arduino Library Manager: "Adafruit MLX90614"
+   • GitHub: https://github.com/adafruit/Adafruit-MLX90614-Library
+
+7. DHT Sensor Library
+   • Header: #include <DHT.h>
+   • Description: Reads ambient temperature and humidity from DHT21/DHT22
+   • Install via Arduino Library Manager: "DHT sensor library"
+   • GitHub: https://github.com/adafruit/DHT-sensor-library
+
+# --------------------------------------------------------------------------
+# 🔧 Notes for Setup
+# --------------------------------------------------------------------------
+
+• Use Arduino IDE Library Manager or PlatformIO to install these libraries.
+• Make sure your board is set to "ESP32 Dev Module" and the ESP32 board package is installed.
+
+# --------------------------------------------------------------------------
+# ✅ Optional
+# --------------------------------------------------------------------------
+
+• ArduinoJSON (if using JSON payloads instead of form-urlencoded)
+• TaskScheduler (if not using FreeRTOS tasks)
