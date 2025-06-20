@@ -174,12 +174,10 @@ cattle-health-monitoring-iot/
 ├─ README.md
 ├─ LICENSE
 ├─ docs/          📐 schematics & flowcharts
-├─ src/           💾 Arduino sketch
-│   └─ main.ino
-├─ data/          🗒 sample payloads
-│   └─ sample_payload.json
-└─ scripts/       📊 Python plotting tools
-    └─ plot_data.py
+├─ code/           💾 Arduino sketch
+│   └─ chms.ino
+├─ images/          🗒 sample images
+
 ```
 
 ---
@@ -200,17 +198,7 @@ cattle-health-monitoring-iot/
 * ☀️ Solar/battery power management
 * 📈 Real‑time dashboard & alerting system
 
----
 
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create a branch (`feature/xyz`)
-3. Commit your changes
-4. Push & open a Pull Request
-5. Follow the [Contributor Covenant](https://www.contributor-covenant.org/)
-
----
 
 ## 📄 License
 
@@ -220,6 +208,6 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## ✉️ Contact
 
-**Your Name**
-📧 [your.email@example.com](mailto:your.email@example.com)
-🔗 [https://github.com/your‑username/cattle-health-monitoring-iot](https://github.com/your‑username/cattle-health-monitoring-iot)
+**ADDY**
+📧 [ad68dy@gmail.com](mailto:ad68dy@gmail.com)
+🔗 [https://github.com/Addy-678/cattle-health-monitoring-iot](https://github.com/Addy-678/cattle-health-monitoring-iot)
