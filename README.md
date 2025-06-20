@@ -4,26 +4,6 @@
 
 ---
 
-## 📑 Table of Contents
-
-1. [🔎 Overview](#🔎-overview)  
-2. [✨ Features](#✨-features)  
-3. [🧰 Hardware Requirements](#🧰-hardware-requirements)  
-4. [💻 Software Requirements](#💻-software-requirements)  
-5. [🔌 Wiring & Pinout](#🔌-wiring--pinout)  
-6. [🚀 Installation](#🚀-installation)  
-7. [⚙️ Configuration](#⚙️-configuration)  
-8. [▶️ Usage](#▶️-usage)  
-9. [📤 Data Format & Endpoints](#📤-data-format--endpoints)  
-10. [📂 Directory Structure](#📂-directory-structure)  
-11. [🛠 Troubleshooting](#🛠-troubleshooting)  
-12. [🔮 Future Enhancements](#🔮-future-enhancements)  
-13. [🤝 Contributing](#🤝-contributing)  
-14. [📄 License](#📄-license)  
-15. [✉️ Contact](#✉️-contact)  
-
----
-
 ## 🔎 Overview
 
 This project implements a wearable IoT module for cattle:
@@ -41,9 +21,6 @@ This project implements a wearable IoT module for cattle:
 - ⏱️ **2 s sensor warm‑up**, then continuous measurements  
 - 📊 **10 s rolling health window**: RMS heart rate & max SpO₂  
 - 🔄 **Rectal temp estimation**:  
-  \[
-    T_{\text{rectal}} = 0.82\,T_{\text{body}} + 0.13\,T_{\text{ambient}} + 0.03\,\%RH + 2.1
-  \]
 - 🎚️ **Behavior classification** at 50 Hz, 2.56 s windows  
 - ⌚ **NTP timekeeping** (IST, UTC+5:30) for `measured_at`  
 - 🔒 **URL‑encoded POST** compatible with CHMS API  
