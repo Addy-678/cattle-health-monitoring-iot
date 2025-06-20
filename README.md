@@ -82,8 +82,8 @@ This project implements a wearable IoT module for cattle:
 
 | ESP32 Pin | MAX30100 | MLX90614 | ADXL345 | DHT22                       |
 | --------- | -------- | -------- | ------- | --------------------------- |
-| 3V3       | VCC      | VCC      | VCC     | —                           |
-| GND       | GND      | GND      | GND     | —                           |
+| 3V3       | VCC      | VCC      | VCC     | VCC                           |
+| GND       | GND      | GND      | GND     | GND                           |
 | GPIO21    | SDA      | SDA      | SDA     | —                           |
 | GPIO22    | SCL      | SCL      | SCL     | —                           |
 | —         | —        | —        | —       | DATA (GPIO4, 10 KΩ pull‑up) |
