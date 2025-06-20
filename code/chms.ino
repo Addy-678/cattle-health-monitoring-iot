@@ -8,16 +8,16 @@
 
 // ============= Configuration =============
 // ----- Wi-Fi -----
-const char* ssid     = "smartway";
-const char* password = "smartway@2020";
+const char* ssid     = "SSID";
+const char* password = "PASSWORD";
 
 // ----- NTP for IST (UTC+5:30) -----
 const long gmtOffset_sec     = 19800;  // 5.5 hours in seconds
 const int  daylightOffset_sec = 0;
 
 // ----- CHMS Endpoints & Credentials -----
-const char* healthDataURL = "https://chms.smartwayelectronics.in/api/sendIotData";
-const char* motionDataURL = "https://chms.smartwayelectronics.in/api/sendMotionData";
+const char* healthDataURL = "https://../sendIotData";
+const char* motionDataURL = "https://../sendMotionData";
 const char* cattle_id     = "134";
 const char* device_id     = "1";
 
