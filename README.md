@@ -41,10 +41,6 @@ This project implements a wearable IoT module for cattle:
 * ⏱️ **2 s sensor warm‑up**, then continuous measurements
 * 📊 **10 s rolling health window**: RMS heart rate & max SpO₂
 * 🔄 **Rectal temp estimation**:
-
-  ```math
-  T_{\text{rectal}} = 0.82\,T_{\text{body}} + 0.13\,T_{\text{ambient}} + 0.03\,\%RH + 2.1
-  ```
 * 🎚️ **Behavior classification** at 50 Hz, 2.56 s windows
 * ⌚ **NTP timekeeping** (IST, UTC+5:30) for `measured_at`
 * 🔒 **URL‑encoded POST** compatible with CHMS API
