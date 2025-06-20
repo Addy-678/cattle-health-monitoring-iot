@@ -210,4 +210,6 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 **ADDY**
 📧 [ad68dy@gmail.com](mailto:ad68dy@gmail.com)
-🔗 [https://github.com/Addy-678/cattle-health-monitoring-iot](https://github.com/Addy-678/cattle-health-monitoring-iot)
+
+🔗 [https://github.com/Addy-678/cattle-health-monitoring-iot]
+(https://github.com/Addy-678/cattle-health-monitoring-iot)
