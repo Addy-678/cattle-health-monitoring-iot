@@ -82,7 +82,7 @@ This project implements a wearable IoT module for cattle:
 | GND       | GND      | GND      | GND     | GND                           |
 | GPIO21    | SDA      | SDA      | SDA     | —                           |
 | GPIO22    | SCL      | SCL      | SCL     | —                           |
-| —         | —        | —        | —       | DATA (GPIO4, 10 KΩ pull‑up) |
+| GPIO4     | —        | —        | —       | DATA (10 KΩ pull‑up) |
 
 ---
 
